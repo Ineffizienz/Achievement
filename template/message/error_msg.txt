@@ -1,0 +1,11 @@
+ERR_NO_CAT: Du hast vergessen eine Kategorie anzugeben.
+ERR_DB: Beim Erstellen der Kategorie ist ein Datenbankfehler aufgetreten. Bitte sag mir bescheid :)
+ERR_NO_AC_NAME: Du hast keinen Titel für das Achievement angegeben. Bitter überprüfe deine Eingaben :)
+ERR_NO_IMAGE: Das, was du mir da versuchst zu verkaufen, ist kein Bild ;)
+ERR_NO_TRIGGER_NAME: Du hast keinen Namen für den Trigger angegeben.
+ERR_AC_LOST: Das Achievement, dass du löschen wolltest, existiert nicht mehr.
+ERR_CATEGORIE_LOST: Die Kategorie, die du löschen wolltest, existiert nicht mehr.
+ERR_TRIGGER_LOST: Der Trigger, den du löschen wolltest, existiert nicht mehr.
+ERR_FILESIZE: Die Datei, die du hochladen wolltest, ist zu groß!
+ERR_FALSE_INPUT: Da ist irgendwie eine falsche Eingabe zustande gekommen o.O
+ERR_NO_VISIB: Du musst mir schon sagen, ob das Ding angezeigt werden soll oder nicht!

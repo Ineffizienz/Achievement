@@ -1,0 +1,58 @@
+<p>
+	<div class="achievement">
+		<div class="options">
+				<input type="hidden" id="ac_id" value="--ID--">
+				<!--<div style="float:left;margin-right:15px;">
+					<i class="fa fa-pencil fa-2x cursor" aria-hidden="true"></i>
+				</div>-->
+				<div style="float:left;margin-right:15px;">
+					<i class="fa fa-link fa-2x cursor connect_ac" aria-hidden="true" id="--ID--"></i>
+				</div>
+				<div style="float:left;margin-right:15px;">
+					<i class="fa fa-picture-o fa-2x cursor update_img" aria-hidden="true" id="--ID--"></i>
+				</div>
+				<div style="float:left;">
+					<i class="fa fa-trash fa-2x cursor delete_ac" aria-hidden="true" id="--ID--"></i>
+				</div>
+		</div>
+		<div class="ac_main_frame">
+			<div id="ac_content">
+				<div class="ac_image">
+					<img src="--IMAGE--">
+				</div>
+				<div class="ac_text">
+					<div id="ac_headline">
+						<h3>--HEADLINE--</h3>
+					</div>
+					<p>--TEXT--</p>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="ac_chain_frame">
+			<div class="ac_form_elements">
+				<label for="cats">Kategorien:</label>
+				<select name="cats" id="assign_cat">
+					{$assign_categorie}	
+				</select>
+
+				<label for="trigs">Trigger:</label>
+				<select name="trigs" id="assign_trig">
+					{$assign_trigger}
+				</select>
+
+				<button id="assign_params" name="--ID--">Achievement zuordnen</button>
+			</div>
+		</div>
+		<div class="ac_image_frame">
+			<div class="ac_form_elements">
+				<form enctype="multipart/form-data">
+					<label for="images">Bild:</label>
+					<input type="file" name="up_image" id="up_image">
+
+					<button id="assign_img" name="--ID--">Bild zuweisen</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</p>
