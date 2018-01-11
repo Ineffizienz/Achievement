@@ -1,0 +1,16 @@
+<div class="text">
+	<h2>Trigger erstellen</h2>
+	<p>Hier kannst du Trigger für Achievements erstellen. Ziel soll es im Endeffekt sein, vorher festzulegen, zu welchem Zeitpunkt ein Achievement erreicht wird. Der Teil der Programmierung ist noch im Aufbau, was zur Folge hat, dass gegenwärtig nur ein Name vergeben werden kann. In einem späteren Update wird es dazu mehr Funktionalität geben ;)</p>
+	<p class="line"></p>
+	<label for="trigger">Name des Triggers:</label>
+	<input type="text" name="trigger" id="trigger" maxlength="20">
+	<button id="create_trig">Trigger erstellen</button>
+
+	<div id="trigger_container">
+		<p class="line"></p>
+		<h2>Trigger</h2>
+		<ul>
+			{$trigger_name}
+		</ul>
+	</div>
+</div>

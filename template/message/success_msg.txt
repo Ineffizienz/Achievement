@@ -1,0 +1,9 @@
+SUC_NEW_CAT: Neue Kategorie erfolgreich erstellt.
+SUC_CREATE_AC: Neues Achievement erfolgreich erstellt.
+SUC_CREATE_TRIGGER: Neuer Trigger erfolgreich angelegt.
+SUC_DELETE_AC: Achievement erfolgreich gelöscht.
+SUC_DELETE_CATEGORIE: Kategorie erfolgreich gelöscht.
+SUC_DELETE_TRIGGER: Trigger erfolgreich gelöscht.
+SUC_ASSIGN_CATEGORIE: Kategorie erfolgreich zugewiesen.
+SUC_ASSIGN_TRIGGER: Trigger erfolgreich zugewiesen.
+SUC_ASSIGN_IMG: Bild erfolgreich zugewiesen.

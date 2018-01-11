@@ -1,0 +1,277 @@
+BODY
+{
+	background-color: #202020;
+	margin: 0;
+	padding: 0;
+	color: #000000;
+	font-size: 12pt;
+	font-family: Calibri;
+}
+
+/* ---------------------- MAIN --------------------------- 
+--------------------------------------------------------------*/
+#wrap
+{
+	margin: 0 auto;
+	margin-top:5%;
+	height:auto;
+}
+#main
+{
+	width: 98%;
+}
+#navigation
+{
+	text-align: center;
+	width:80%;
+}
+#content
+{
+	margin: 0 auto;
+	background-color: #DAD8D8;
+	border-radius: 2px;
+	box-shadow: 0 5px 5px 0;
+	width: 80%;
+}
+
+/* ---------------------- BASIC --------------------------- 
+--------------------------------------------------------------*/
+
+h2
+{
+	margin:0;
+	text-decoration: underline;
+}
+h3
+{
+	margin: 0;
+	text-decoration: underline;
+}
+.line
+{
+	border-top: 2px solid #000000;
+}
+.table
+{
+	margin: 0 auto;
+}
+.table td
+{
+	padding: 5px;
+}
+textarea
+{
+	resize: none;
+}
+label
+{
+	font-weight: bold;
+}
+.clear
+{
+	clear:both;
+}
+input[type=text]
+{
+	color: #FFFFFF;
+	border-radius: 2px;
+	border: 1px solid #000000;
+	background-color: #202020;
+}
+textarea
+{
+	background-color: #202020;
+	color: #FFFFFF;
+	border-radius: 2px;
+	border: 1px solid #000000;
+}
+.delete_button
+{
+	cursor: pointer;
+	margin-left:5px;
+	background-color: #DAD8D8;
+	border: 0;
+}
+.current
+{
+	margin-top:4%;
+}
+.rounded_border
+{
+	border-radius: 0 0 5px 5px;
+}
+
+/* ---------------------- NAVIGATION --------------------------- 
+--------------------------------------------------------------*/
+#navigation ul
+{
+	padding:0;
+	margin:0;
+	margin-bottom:7px;
+	list-style: none;
+}
+#navigation ul li
+{
+	display:inline;
+	padding:7px;
+	font-weight: bold;
+	background-color: #C0C0C0;
+	border-radius: 0 5px 0 0;
+}
+#navigation ul a li:hover
+{
+	background-color: #193390;
+	color:#FFFFFF;
+}
+
+/* ---------------------- CHANGELOG --------------------------- 
+--------------------------------------------------------------*/
+
+.text
+{
+	padding:5%;
+}
+
+
+/* ---------------------- CHANGELOG --------------------------- 
+--------------------------------------------------------------*/
+
+#result
+{
+	display: none;
+}
+#message
+{
+	position:absolute;
+	top:0%;
+	left: 0;
+	padding:7px;
+	background-color: #FFFFFF;
+	border-radius:5px;
+}
+.message_text
+{
+	font-weight:bold;
+	font-size:10pt;
+}
+
+/* ---------------------- ACHIEVEMENT --------------------------- 
+--------------------------------------------------------------*/
+
+.options
+{
+	position: absolute;
+	display:none;
+	top: 30px;
+	left: 40%;
+	opacity: 1;
+	z-index: 10;
+}
+.cursor
+{
+	cursor: pointer;
+}
+.achievement
+{
+	display: inline-block;
+	position: relative;
+	margin-right: 2%;
+	background-color: #C0C0C0;
+	box-shadow: 0 5px 5px 0;
+	border-radius: 0 20px 20px 0;
+	width: 45%;
+}
+#ac_headline
+{
+	background-color: #A0A0A0;
+	border-radius: 0 20px 0 5px;
+	width: 100%;
+}
+#ac_headline h3
+{
+	padding: 5px;
+	margin: 0;
+	font-family: Calibri;
+	text-decoration: none;
+}
+#ac_content
+{
+	background-color: #C0C0C0;
+	border-radius: 0 20px 20px 0;
+}
+.ac_image
+{
+	float:left;
+	text-align: center;
+	width: 26.7%;
+}
+.ac_image img
+{
+	border-radius: 50%;
+	max-width: 100%;
+	height: auto;
+}
+.ac_text
+{
+	float:left;
+	margin-left:-4px;
+	width: 73.9%;
+	vertical-align: top;
+}
+.ac_text p
+{
+	text-align: justify;
+	font-family: Calibri;
+	white-space: pre-line;
+	margin-right: 2%;
+}
+.ac_chain_frame
+{
+	display:none;
+	position:absolute;
+	background-color:#fff;
+	border-radius: 0 0 5px 5px;
+	text-align: center;
+	width:100%;
+	z-index:10;
+}
+.ac_image_frame
+{
+	display:none;
+	position:absolute;
+	background-color: #fff;
+	border-radius: 0 0 5px 5px;
+	text-align: center;
+	width: 100%;
+	z-index:10;
+}
+.ac_form_elements
+{
+	margin: 5px;
+	text-align:center;
+	font-family: Calibri;
+	white-space: initial;
+}
+.ac_form_elements label
+{
+	padding: 2px;
+}
+
+/* ---------------------- LINKS --------------------------- 
+--------------------------------------------------------------*/
+
+A:link
+{
+	color: #000000;
+	text-decoration: none;
+}
+A:visited
+{
+	color: #000000;
+	text-decoration: none;
+}
+A:hover
+{
+	color: #000000;
+	text-decoration: none;
+}

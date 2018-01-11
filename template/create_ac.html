@@ -1,0 +1,84 @@
+<div class="text">
+	<h2>Achievement erstellen</h2>
+	<p>Hier kannst du eine Errungenschaft erstellen, ihr eine Kategorie und einen Trigger zuweisen und ein entsprechendes Bild dafür festlegen. <b>Die Bilder sollten maximal eine Breite von <u>90px</u> haben, damit sich entsprechend dem Design anpassen</b></p>
+	<p class="line">&nbsp;</p>
+	<div id="create_ac_form">
+		<form enctype="multipart/form-data">
+			<table class="table">
+				<tr>
+					<td>
+						<label for="ac_name">Titel der Errungenschaft:</label>
+					</td>
+					<td>
+						<input type="text" name="ac_name" id="ac_name" maxlength="180">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="ac_cat">Kategorie zuweisen:</label>
+					</td>
+					<td>
+						<select id="cat" name="ac_cat">
+							{$categorie}
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="ac_trig">Trigger zuweisen:</label>
+					</td>
+					<td>
+						<select id="trig" name="ac_trig">
+							{$trigger}
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="ac_image">Bild hochladen:</label>
+					</td>
+					<td>
+						<input type="file" name="ac_image" id="ac_image">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="hidden">Achievement soll versteckt sein</label>
+					</td>
+					<td>
+						<input type="checkbox" name="visibility" id="hidden" value="1">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="visible">Achievement soll sichtbar sein</label>
+					</td>
+					<td>
+						<input type="checkbox" name="visibility" id="visible" value="2">
+					</td>
+				<tr>
+					<td>
+						<label for="ac_message">Achievement-Text:</label>
+					</td>
+					<td>
+						<textarea name="ac_message" id="ac_message" maxlength="150" cols="40" rows="10"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>
+						<button id="create_ac">Achievement erstellen</button>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	<div id="ac_container">
+		<p class="line"></p>
+		<h2>Achievements</h2>
+		<div>
+			{$achievements}
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
